@@ -156,6 +156,7 @@
     top: 17px;
     margin-top: 100px;
 }
+
 .hs-2-1 img {
     position: absolute;
     left: 150px;
@@ -332,6 +333,7 @@
     border: none;
     padding: 15px 34px;
     gap: 10px;
+    text-decoration: none;
 }
 :root {
     --footer-bg: #e8e9eb;
@@ -941,8 +943,8 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .butsh{
-       justify-content: center;
+    .butsh {
+        justify-content: center;
     }
     .value h2 {
         /* background-color: aquamarine; */
@@ -1019,10 +1021,13 @@
         height: 240px;
     }
     .box1h1 {
-        font-weight: 550;
+        font-weight: 500;
         font-style: Semi Bold;
         font-size: 45px;
         text-align: center;
+        position: relative;
+        right: 6%;
+        
     }
     .vidimg {
         width: 300px;
@@ -1198,6 +1203,9 @@
     }
     .issue1 {
         margin-bottom: 50px;
+    }
+    .iframe {
+        width: 90%;
     }
 }
 

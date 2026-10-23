@@ -58,7 +58,9 @@ const Homesection9 = () => {
                         {" "}
                         <a href="http://">
                             {" "}
-                            <button className="igbutton d-flex align-items-center "   >
+                            <button className="igbutton d-flex align-items-center "  style={{
+                                textDecoration:"none"
+                            }} >
                                 Visit our Instagram Page
                             </button>
                         </a>
